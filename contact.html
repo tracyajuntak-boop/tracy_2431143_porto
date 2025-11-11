@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Tracy</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="animated">
+            <a href="#" class="logo">Portofolio</a>
+
+            <nav class="navbar">
+                <a href="index.html">Home</a>
+                <a href="information.html">About Me</a>
+                <a href="portofolio.html">Project</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+
+        <section class="form">
+            <h2>Request a Website Project</h2>
+            <p class="desc">Fill out the form below to request a custom website based on your project needs.</p>
+            <div class="form-container">
+                <div class="form-box">
+                <form class="contact-form" action="#" method="post">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required />
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required />
+
+                    <label for="service">Website Type</label>
+                    <select id="service" name="service" required>
+                        <option value="">-- Select website type --</option>
+                        <option value="portfolio">Portfolio Website</option>
+                        <option value="ecommerce">E-Commerce Website</option>
+                        <option value="company">Company Website</option>
+                        <option value="blog">Blog Website</option>
+                    </select>
+
+                    <label for="message">Project Description</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Describe your project goals and required features..." required></textarea>
+
+                    <fieldset class="options">
+                    <legend>Estimated Project Duration</legend>
+                    <label><input type="radio" name="duration" value="1-2 weeks" required /> 1–2 Weeks</label>
+                    <label><input type="radio" name="duration" value="3-4 weeks" required /> 3–4 Weeks</label>
+                    <label><input type="radio" name="duration" value="over 1 month" required /> Over 1 Month</label>
+                    </fieldset>
+
+                    <div class="check">
+                        <label><input type="checkbox" required /> I agree to the terms and conditions</label>
+                    </div>
+
+                    <button type="submit" class="btn-submit">Submit Request</button>
+                </form>
+                </div>
+                
+            </div>
+            
+        </section>
+        <footer>
+                    Tracy @2025
+                 <a href="https://itpln.ac.id/">IT PLN</a>
+        </footer>
